@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <!--metadata about the html doc-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--webpage title-->
+        <title>Blogs about Frogs</title>
+
+        <!--elements to link to css stylesheet and to direct to js script-->
+        <link rel="stylesheet" type="text/css" href="../styles/style.css">
+        <script type="text/javascript" src="../scripts/script.js"></script>
+    
+    </head>
+
+    <body>
+
+        <!--navigation bar, with links to different pages of website and the button to toggle dark or light mode-->
+        <nav id="navbar" class="navbar">
+            <!--the active class indicates the current webpage-->
+            <a href="index.html" class="active">Home</a>
+            <a href="blogs.html">Blogs</a>   
+            <a href="frogs.html">Frogs</a>
+            <a href="contact.html">Contact</a>
+            <button id="togglebutton" class="togglebutton" name="togglebutton" onclick="modeFunction()">Toggle Mode</button>
+        </nav>
+
+        <br><br><br>
+
+        <!--the divs holding the elements for the top of the page-->
+        <div class="container-head" id="container-head">
+            <div class="card-head" id="card-head">
+
+                <h2>Welcome to Blogs about Frogs</h2>
+
+                <br><br>
+                
+                <p>We are the International Society of Frog Aficionados, 
+                and we warmly welcome you to the fold and to our website.
+                <br><br>
+                This is the best place on the internet for those who
+                love frogs to meet and exchange all our favourite frog
+                facts, stories, pictures, and videos.
+                <br><br>
+                Feel free to hop around from page to page, searching for 
+                your favourite content.
+                </p>
+
+            </div>
+        </div>
+
+        <br><br>
+
+        <!--video element-->
+        <video controls muted>
+            <source src="../assets/videos/frog.mp4" type="video/mp4">
+             Your browser does not support the video tag.
+        </video>
+
+
+    </body>
+
+</html>

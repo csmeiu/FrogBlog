@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <!--metadata about the html doc-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--webpage title-->
+        <title>Blogs about Frogs</title>
+
+        <!--elements to link to css stylesheet and to direct to js script-->
+        <link rel="stylesheet" type="text/css" href="../styles/style.css">
+        <script type="text/javascript" src="../scripts/script.js" defer></script>
+
+    </head>
+
+    <body>
+
+        <!--navigation bar, with links to different pages of website and the button to toggle dark or light mode-->
+        <nav id="navbar" class="navbar">
+            <a href="index.html">Home</a>
+            <!--the active class indicates the current webpage-->
+            <a href="blogs.html" class="active">Blogs</a>   
+            <a href="frogs.html">Frogs</a>
+            <a href="contact.html">Contact</a>
+            <button id="togglebutton" class="togglebutton" name="togglebutton" onclick="modeFunction()">Toggle Mode</button>
+        </nav>
+
+        <br><br><br>
+
+        <!--the divs holding the elements for the top of the page-->
+        <div class="container-head" id="container-head">
+            <div class="card-head" id="card-head">
+
+                <h2>Welcome to Our Blog Page</h2>
+
+                <br><br>
+
+                <p> Here you can find all our blog posts about
+                    all our favourite frog content.
+                </p>
+
+            </div>
+        </div>
+        
+        <br><br>
+
+        <!--divs to hold the blog entries in grid positions
+            with an inner-container around all the cards, which in combination
+            with css style settings, sizes the cards to fit the container 
+            and arranges the cards in one column-->
+        <div class="container" id="container">
+            <div class="inner-container" id="inner-container">
+                <ul id="myList">
+
+                    <!--each card contains a blog entry, with the title an h4 element, 
+                        the author name an h5 element and the post a p element.
+                        each blog card is also a list item, to aid with inserting the new blog entries at the top-->
+                    <li>
+                        <div class="card" id="card" name="div">
+                            <h4 id="postTitle" name="postTitle">My Favourite Frog</h4>
+                            <h5 id="postAuthor" name="postAuthor">Rufus Ribble</h5>
+                            <p id="post" id="post">Lots of information about my favourite frog, the poison dart frog. 
+                                Poison dart frogs are one of the planet's most toxic, or poisonous, species. Their bright colours
+                                are meant to warn of this. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </li>
+            
+                <br>
+
+                    <!--each card contains a blog entry, with the title an h4 element, 
+                        the author name an h5 element and the post a p element.
+                        each blog card is also a list item, to aid with inserting the new blog entries at the top-->
+                    <li>
+                        <div class="card" id="card">
+                            <h4 id="postTitle" name="postTitle">The Frog</h4>
+                            <h5 id="postAuthor" name="postAuthor">Hilaire Belloc</h5>
+                            <p id="post" id="post">
+                                Be kind and tender to the Frog, <br>
+                                And do not call him names, <br>
+                                As ‘Slimy skin,’ or ‘Polly-wog,’ <br>
+                                Or likewise ‘Ugly James,’ <br>
+                                Or ‘Gape-a-grin,’ or ‘Toad-gone-wrong,’ <br>
+                                Or ‘Billy Bandy-knees’: <br>
+                                The Frog is justly sensitive <br>
+                                To epithets like these. <br>
+                                No animal will more repay <br>
+                                A treatment kind and fair; <br>
+                                At least so lonely people say <br>
+                                Who keep a frog (and, by the way, <br> 
+                                They are extremely rare).
+                            </p>
+                        </div>
+                    </li>
+
+                <br>
+
+                    <!--each card contains a blog entry, with the title an h4 element, 
+                        the author name an h5 element and the post a p element.
+                        each blog card is also a list item, to aid with inserting the new blog entries at the top-->
+                    <li>
+                        <div class="card" id="card">
+                            <h4 id="postTitle" name="postTitle">Frog Facts</h4>
+                            <h5 id="postAuthor" name="postAuthor">Anura Ranidae</h5>
+                            <p id="post" id="post">Frogs are one of the greatest and most heterogeneous groups of amphibians on the planet. 
+                                Thousands of frog species have been documented, with diverse unique adaptions for a vast variety of habitats.
+                                Frogs are found in a diversity of places. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <br><br>
+    
+        <!--the form element to hold user input to create a new blog post
+            with onsubmit triggering the JavaScript function createNewBlog()
+            and onclick (on the submit input below) triggering the JavaScript 
+            function validateForm()-->
+        <form name="blogForm" id="blogForm" onsubmit="return createNewBlog()">
+
+            <h3>Add New Blog Post</h3>   
+
+            <br> 
+            
+            <!--input for new blog title, held within a p element for layout
+                including label element for the input element, and a span element 
+                to hold the error message if needed from the function validateForm()-->
+            <p>
+                <label for="title">Title:</label>
+                <input type="text" name="title" id="title" placeholder="Please enter your blog title"/>
+                <br>
+                <span id="title-error" class="error-message"></span>
+            </p>
+            
+            <br>
+            
+            <!--input for new blog author, held within a p element for layout
+                including label element for the input element, and a span element 
+                to hold the error message if needed from the function validateForm()-->            
+            <p>
+                <label for="author">Author:</label>
+                <input type="text" name="author" id="author" placeholder="Please enter your name"/>
+                <br>
+                <span id="author-error" class="error-message"></span>
+            </p>
+            
+            <br>
+            
+            <!--input for new blog entry, held within a p element for layout
+                including label element for the input element, and a span element
+                to hold the error message if needed from the function validateForm()-->            
+            <p>
+                <label for="entry"></label>
+                <textarea name="entry" id="entry" placeholder=" Please write your blog post here"></textarea>
+                <br>
+                <span id="entry-error" class="error-message"></span>
+            </p>
+            
+            <br>
+            
+            <!--reset and submit input buttons, held within a p element for layout
+                reset clears the above input fields, and submit submits the form, triggering both
+                the onsubmit function call to createNewBlog() held in the form tag above and
+                the onclick function call to validateForm()-->
+            <p>
+                <input type="reset" value="Reset" name="reset"/>
+                <input type="submit" value="Submit" name="submit" onclick="return validateForm()"/>
+            </p>
+
+        </form>
+
+        <br><br>
+
+        <!--video element-->
+        <video controls muted>
+            <source src="../assets/videos/frog.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+
+    </body>
+
+</html>

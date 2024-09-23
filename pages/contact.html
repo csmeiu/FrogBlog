@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+    <html>
+
+    <head>
+
+        <!--metadata about the html doc-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--webpage title-->
+        <title>Blogs about Frogs</title>
+
+        <!--elements to link to css stylesheet and to direct to js script-->
+        <link rel="stylesheet" type="text/css" href="../styles/style.css">
+        <script type="text/javascript" src="../scripts/script.js"></script>
+
+
+    </head>
+
+    <body>
+
+        <!--navigation bar, with links to different pages of website and the button to toggle dark or light mode-->
+        <nav id="navbar" class="navbar">
+            <a href="index.html">Home</a>
+            <a href="blogs.html">Blogs</a>   
+            <a href="frogs.html">Frogs</a>
+            <!--the active class indicates the current webpage-->
+            <a href="contact.html" class="active">Contact</a>
+            <button id="togglebutton" class="togglebutton" name="togglebutton" onclick="modeFunction()">Toggle Mode</button>
+        </nav>
+
+        <br><br><br>
+
+        <!--the divs holding the elements for the top of the page-->
+        <div class="container-head" id="container-head">
+            <div class="card-head" id="card-head">
+
+                <h2>Welcome to Our Contact Page</h2>
+
+                <br><br>
+
+                <p>We would love to hear from you!  Just click the image below to reach out and ribbit us an email.
+                </p>
+
+            </div>
+        </div>
+
+        <br><br>
+
+        <!--link on image, to open a new email on the users computer, prepopulated with recipients, a subject, and a message-->
+        <a href="mailto:claudia.meium@version1.com?cc=randallribble@webby.com&bcc=wilburwebson@webby.com&subject=Ribbit!
+                &body=Greetings and Salutations, %0D%0A %0D%0A   I hope this email finds you enjoying a frog-filled day! %0D%0A %0D%0ASincerely, Your New Best Froggy Friend">
+            <img src="../assets/images/frogenv.jpg" id="contact" name="contact" class="contact" alt="a black and white envelope symbol">
+        </a>
+
+        <br><br><br>
+
+    </body>
+
+</html>

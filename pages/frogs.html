@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <!--metadata about the html doc-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--webpage title-->
+        <title>Blogs about Frogs</title>
+
+        <!--elements to link to css stylesheet and to direct to js script-->
+        <link rel="stylesheet" type="text/css" href="../styles/style.css">
+        <script type="text/javascript" src="../scripts/script.js"></script>
+
+    </head>
+
+    <body>
+
+        <!--navigation bar, with links to different pages of website and the button to toggle dark or light mode-->
+        <nav id="navbar" class="navbar">
+            <a href="index.html">Home</a>
+            <a href="blogs.html">Blogs</a> 
+            <!--the active class indicates the current webpage-->
+            <a href="frogs.html" class="active">Frogs</a>
+            <a href="contact.html">Contact</a>
+            <button id="togglebutton" class="togglebutton" name="togglebutton" onclick="modeFunction()">Toggle Mode</button>
+        </nav>
+
+        <br><br><br>
+
+        <!--the divs holding the elements for the top of the page-->
+        <div class="container-head" id="container-head">
+            <div class="card-head" id="card-head">
+
+                <h2>Welcome to Our Frog Page</h2>
+
+                <br><br>
+
+                <p> Here you can find pictures and videos of
+                    all our favourite frogs.
+                </p>
+
+            </div>
+        </div>
+
+        <br><br>
+
+        <!--divs to hold the image elements in grid positions
+            with an inner-container around each card, which in combination
+            with css style settings, sizes the images to fit the inner containers
+            and arranges the cards in three columns-->
+        <div class="container" id="container">
+            
+            <!--each inner-container within the grid contains a card 
+                which contains an image element element-->
+            <div class="inner-container" id="inner-container">
+                <div class="card" id="card" name="div1">
+                    <img src="../assets/images/fatfrog.jpg" alt="a cute frog">
+                </div>
+            </div>
+            
+            <!--each inner-container within the grid contains a card 
+                which contains an image element element-->
+            <div class="inner-container" id="inner-container">
+                <div class="card" id="card" name="div">
+                    <img src="../assets/images/poisondart.avif" alt="a cute frog">
+                </div>
+            </div>
+            
+            <!--each inner-container within the grid contains a card 
+                which contains an image element element-->           
+            <div class="inner-container" id="inner-container">
+                <div class="card" id="card" name="div">
+                    <img src="../assets/images/treefrog.jpg" alt="a cute frog">
+                </div>
+            </div>
+            
+            <!--each inner-container within the grid contains a card 
+                which contains an image element element-->           
+            <div class="inner-container" id="inner-container">
+                <div class="card" id="card" name="div">
+                    <img src="../assets/images/frog2.jpg" alt="a cute frog">
+                </div>
+            </div>
+            
+            <!--each inner-container within the grid contains a card 
+                which contains an image element element-->           
+            <div class="inner-container" id="inner-container">
+                <div class="card" id="card" name="div">
+                    <img src="../assets/images/frog.jpg" alt="a cute frog" id="frogPic">
+                </div>
+            </div>
+            
+            <!--each inner-container within the grid contains a card 
+                which contains an image element element-->           
+            <div class="inner-container" id="inner-container">
+                <div class="card" id="card" name="div">
+                    <img src="../assets/images/frog3.jpg" alt="a cute frog" id="frogPic">
+                </div>
+            </div>
+            
+            <!--each inner-container within the grid contains a card 
+                which contains an image element element-->           
+            <div class="inner-container" id="inner-container">
+                <div class="card" id="card" name="div">
+                    <img src="../assets/images/frog4.jpg" alt="a cute frog" id="frogPic">
+                </div>
+            </div>
+            
+            <!--each inner-container within the grid contains a card 
+                which contains an image element element-->          
+            <div class="inner-container" id="inner-container">
+                <div class="card" id="card" name="div">
+                    <img src="../assets/images/frog5.jpg" alt="a cute frog" id="frogPic">
+                </div>
+            </div>
+            
+            <!--each inner-container within the grid contains a card 
+                which contains an image element element-->          
+            <div class="inner-container" id="inner-container">
+                <div class="card" id="card" name="div">
+                    <img src="../assets/images/frog6.jpg" alt="a cute frog" id="frogPic">
+                </div>
+            </div>
+
+        </div> 
+
+        <br><br>
+
+        <!--divs to hold the video elements in grid positions
+            with an inner-container around all the cards, which in combination
+            with css style settings, sizes the videos to fit the container 
+            and arranges the cards in one column-->
+        <div class="container" id="container">
+            <div class="inner-container" id="inner-container">
+
+                <!--each card within the grid contains a video element-->
+                <div class="card" id="card" name="div">
+                    <video controls muted>
+                        <source src="../assets/videos/frog1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!--each card within the grid contains a video element-->
+                <div class="card" id="card" name="div">
+                    <video controls muted>
+                        <source src="../assets/videos/frog2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!--each card within the grid contains a video element-->
+                <div class="card" id="card" name="div">
+                    <video controls muted>
+                        <source src="../assets/videos/frog10.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!--each card within the grid contains a video element-->
+                <div class="card" id="card" name="div">
+                    <video controls muted>
+                        <source src="../assets/videos/frog4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!--each card within the grid contains a video element-->
+                <div class="card" id="card" name="div">
+                    <video controls muted>
+                        <source src="../assets/videos/frog9.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!--each card within the grid contains a video element-->
+                <div class="card" id="card" name="div">
+                    <video controls muted>
+                        <source src="../assets/videos/frog6.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!--each card within the grid contains a video element-->
+                <div class="card" id="card" name="div">
+                    <video controls muted>
+                        <source src="../assets/videos/frog7.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!--each card within the grid contains a video element-->
+                <div class="card" id="card" name="div">
+                    <video controls muted>
+                        <source src="../assets/videos/frog8.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <!--each card within the grid contains a video element-->
+                <div class="card" id="card" name="div">
+                    <video controls muted>
+                        <source src="../assets/videos/frog.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+
+</html>

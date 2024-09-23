@@ -1,0 +1,215 @@
+/*all elements with default style settings*/
+* {
+    text-align: center;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*body of document default style settings*/
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+  }
+
+/*body style settings for dark-mode*/  
+.dark-mode {
+    background-color: black;
+    color: white;
+  } 
+
+/*settings for navbar*/
+nav {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+    position:fixed;
+    top:0;
+    width:97%;
+    z-index: 5;
+}
+
+/*style settings for reference links within navbar*/
+nav a {
+    float: left;
+    color: #93cdc3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+/*style settings for the togglebutton*/
+#togglebutton {
+    float: right;
+    height: 100%;
+    color: #0a5448;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+/*style settings for when cursor hovers over links within nevbar
+and over the togglebutton*/
+#togglebutton:hover,
+nav a:hover {
+    background-color: #88e1bc;
+    color: rgb(7, 113, 55);
+}
+
+/*style setting for links of class active within navbar
+to show which page a user is currently on*/
+nav a.active {
+    background-color: #0e754f;
+    color: white;
+}
+
+/*settings to style the container of the grid divs and cards
+applied to elements with class container*/
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #29877f;
+    padding: 10px;
+    border-radius: 30px;
+    overflow: scroll;
+    position: relative;
+}
+
+/*style settings for container of grid divs and cards
+applied to elements with class container-head*/
+.container-head {
+    display: grid;
+    padding: 10px;
+    border-radius: 30px;
+    overflow: scroll;
+    position: relative;
+    text-align: center;
+    overflow: scroll;
+    position: relative;
+}
+
+/*settings to style the cards of the grid divs
+applied to elements with class card*/
+.card {
+    background-color: lightseagreen;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+/*style settings for elements of grid div
+with class card-head*/
+.card-head {
+    padding: 20px;
+    text-align: center;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    width: 500px;
+}
+
+/*style settings for the list that holds the blog entrys*/
+ul { 
+    list-style-type: none; 
+    padding: 10px 20px;
+}
+
+/*style settings for reference links*/
+a:link {color:green}
+a:visited {color:lightgreen}
+a:hover {color:lightseagreen}
+a:active {color:greenyellow}
+
+/*setting style for elements of class contact*/
+.contact {
+    width: 300px;
+}
+
+/*settings to style images and video*/
+img, video {
+    height: auto;
+    object-fit: cover;
+    flex-grow: 1; 
+    border: 5px solid #555;
+    border-radius:10px;
+    border-width: 5px;
+}
+
+/*separate width styling for the images
+to create desired grid layout,
+in combination with inner-container div placement*/
+img {
+    width:300px;
+}
+
+/*separate width styling for the videos
+to create desired grid layout, #
+in combination with inner-container div placement*/
+video {
+    width: 100%;
+}
+
+/*settings to style form elements*/
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: scroll;
+}
+
+/*style settings for elements with id title and author*/
+#title,
+#author {
+    border-radius: 8px;
+}
+
+/*style settings for element with id entry*/
+#entry {
+    height:500px;
+    width: 800px;
+    font-size:12pt;
+    text-align: start;
+    border-radius:15px;
+}
+
+/*style settings for input of type submit and reset*/
+input[type="submit"],
+input[type="reset"] {
+    background-color: lightgreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/*style settings for when the cursor hovers over input buttons
+of type submit and reset*/
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: darkgreen;
+}
+
+/*settings for elements of class error-message*/
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
